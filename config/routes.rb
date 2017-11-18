@@ -10,7 +10,9 @@ Rails.application.routes.draw do
       end
 
       post "facebook", to: "users#facebook"
-      resources :books, only: [:index, :show]
+      resources :books, only: [:index, :show] do
+        resources :reviews, only: [:index, :show, :create, :update, :destroy]
+      end
     end
   end
 end
