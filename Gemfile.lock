@@ -45,6 +45,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    after_commit_action (1.1.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
     arel (8.0.0)
     bcrypt (3.1.11)
     builder (3.2.3)
@@ -52,6 +55,10 @@ GEM
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.0.5)
+    counter_culture (1.8.2)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      after_commit_action (~> 1.0)
     crass (1.0.2)
     devise (4.3.0)
       bcrypt (~> 3.0)
@@ -163,6 +170,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.10.0)
   byebug
+  counter_culture (~> 1.8)
   devise (~> 4.3.0)
   faker
   koala (~> 3.0.0)
