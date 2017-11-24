@@ -24,4 +24,6 @@ This is a project come from my [Rails API course](https://www.udemy.com/restful-
 
 * rails db:migrate
 
+* rails db:seed
+
 * rails s to run server and have fun!
