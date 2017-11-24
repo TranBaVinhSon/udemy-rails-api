@@ -68,6 +68,6 @@ class Api::V1::ReviewsController < ApplicationController
   end
 
   def review_params
-    params.require(:review).permit :title, :content_rating, :recommend_rating
+    params.require(:review).permit :title, :content_rating, :recommend_rating, :image_review
   end
 end
