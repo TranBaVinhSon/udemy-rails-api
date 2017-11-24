@@ -24,6 +24,6 @@ This is a project come from my [Rails API course](https://www.udemy.com/restful-
 
 * rails db:migrate
 
-* rails db:seed
+* rails db:seed (Optional. But you will see error when generate Review data. It's Ok)
 
 * rails s to run server and have fun!
