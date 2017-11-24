@@ -32,3 +32,5 @@ gem "koala", "~> 3.0.0"
 gem "faker"
 gem "active_model_serializers", "~> 0.10.0"
 gem "counter_culture", "~> 1.8"
+
+gem "paperclip", "~> 5.0.0"
