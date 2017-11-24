@@ -1,24 +1,27 @@
-# README
+# RESTful API with Ruby On Rails 5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project come from my [Rails API course](https://www.udemy.com/restful-api-with-ruby-on-rails-5)
 
-Things you may want to cover:
+### Things this course covers:
 
-* Ruby version
+* Build own authentication system
 
-* System dependencies
+* Log In Facebook via API
 
-* Configuration
+* Customizing JSON response
 
-* Database creation
+* Improving Performance
 
-* Database initialization
+* Upload Image to Server
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+* git clone https://github.com/TranBaVinhSon/udemy-rails-api
 
-* Deployment instructions
+* cd udemy-rails-api
 
-* ...
+* bundle install
+
+* rails db:migrate
+
+* rails s to run server and have fun!
